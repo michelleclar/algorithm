@@ -140,11 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
+    <ClInclude Include="spatialComplexity.h" />
     <ClInclude Include="timeComplexity.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="dataStructure.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="spatialComplexity.cpp" />
     <ClCompile Include="timeComplexity.cpp" />
     <ClCompile Include="utils.cpp" />
   </ItemGroup>
